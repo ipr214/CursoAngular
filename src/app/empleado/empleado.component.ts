@@ -8,5 +8,14 @@ import { Component } from '@angular/core';
   //styles:["p{background-color:red;}"] //estilos en línea
 })
 export class EmpleadoComponent {
+  nombre = "Jorge";
+  apellido = "Canedo";
+  edad = 54;
+  //empresa = "Unitronics";
+
+  /*llamaEmpresa(value:String){
+
+
+  }*/
 
 }
