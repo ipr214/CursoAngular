@@ -11,7 +11,7 @@ export class EmpleadoComponent {
   nombre = "Jorge";
   apellido = "Canedo";
   edad = 54;
-  //empresa = "Unitronics";
+  empresa = "HispaMedia";
 
   textoDeRegistro="No hay nadie registrado";
 
@@ -37,7 +37,5 @@ export class EmpleadoComponent {
       this.textoDeRegistro = "No hay nadie registrado";
     }
   }
-
-
-
+  
 }
