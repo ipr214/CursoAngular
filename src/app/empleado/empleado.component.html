@@ -5,7 +5,10 @@
 <br/>
 <br/>
 Introduce la empresa:
-<input type="text" #empresa (keyup)="1"/>
+<input type="text" #empresa (keyup)="1" [disabled]="habilitacionCuadro"/>
 <br/>
 <br/>
 <!-- <input type="button" value="Dale!" (click)="llamaEmpresa(empresa.value)"/> -->
+Registrado: <input type="checkbox" id="registro" [checked]="usuarioRegistrado" />
+
+{{getRegistroUsuario()}}

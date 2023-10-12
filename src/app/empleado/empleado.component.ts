@@ -18,4 +18,11 @@ export class EmpleadoComponent {
 
   }*/
 
+  habilitacionCuadro = false;
+  usuarioRegistrado = true;
+
+  getRegistroUsuario(){
+    this.usuarioRegistrado= false;
+  }
+
 }
